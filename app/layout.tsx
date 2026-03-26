@@ -8,11 +8,23 @@ export const metadata: Metadata = {
   keywords:
     "Textilien Bregenz, Vorhänge, Gardinen, Polsterstoffe, Sonnenschutz, Maßanfertigung, Bregenz, Vorarlberg",
   openGraph: {
-    title: "Textil Sonderegger — Stoffe, Vorhänge & Polster in Bregenz",
-    description:
-      "Ihr Spezialist für hochwertige Textilien und maßgefertigte Vorhänge in Bregenz.",
+    title: "Textil Sonderegger Bregenz",
+    description: "Stoffe, Vorhänge & Polster in Bregenz — Maßanfertigung vom Profi",
+    images: [
+      {
+        url: '/og?name=Textil%20Sonderegger&tagline=Stoffe%20%C2%B7%20Vorh%C3%A4nge%20%C2%B7%20Polster&color=%23B8860B',
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: "website",
     locale: "de_AT",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Textil Sonderegger Bregenz",
+    description: "Stoffe, Vorhänge & Polster in Bregenz — Maßanfertigung vom Profi",
+    images: ['/og'],
   },
 };
 
