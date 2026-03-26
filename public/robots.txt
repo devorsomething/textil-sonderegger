@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://textil-sonderegger.at/sitemap.xml
